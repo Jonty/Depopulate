@@ -7,7 +7,6 @@ use IO::Socket;
 
 my ($host, $user, $password) = @ARGV;
 
-# Show help if params are missing
 unless (defined $host && defined $user && defined $password) {
     die <<TEXT
 
